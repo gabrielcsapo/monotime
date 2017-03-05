@@ -1,0 +1,19 @@
+{
+  "name": "monotime",
+  "version": "0.0.0",
+  "description": "Money in reference to time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielcsapo/monotime.git"
+  },
+  "author": "Gabriel J. Csapo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielcsapo/monotime/issues"
+  },
+  "homepage": "https://github.com/gabrielcsapo/monotime#readme"
+}
