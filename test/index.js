@@ -6,7 +6,7 @@ test('monotime', (t) => {
 
     t.test('should throw error, not supported interval', (t) => {
         try {
-            monotime('whatwhat', 17)
+            monotime('whatwhat', 17);
         } catch(ex) {
             t.equal('Error: interval not supported', ex.toString());
         }

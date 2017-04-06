@@ -8,6 +8,7 @@ module.exports = (interval, amount) => {
     let self = {
         total: 0
     };
+
     switch (interval) {
         case 'hourly':
             self.total = amount * 2080;
@@ -34,4 +35,4 @@ module.exports = (interval, amount) => {
         return value / hourly;
     };
     return self;
-}
+};
