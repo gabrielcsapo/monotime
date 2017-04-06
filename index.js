@@ -1,3 +1,5 @@
+"use strict";
+
 /**
  * @constructor Monotime
  * @param  {string} interval - hourly, bi-weekly, monthly, yearly (the time income is collected)
