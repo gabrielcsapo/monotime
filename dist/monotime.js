@@ -1,3 +1,4 @@
+require=(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"monotime":[function(require,module,exports){
 "use strict";
 
 /**
@@ -30,12 +31,13 @@ module.exports = (interval, amount) => {
     /**
      * @memberof Monotime
      * @function get
-     * This function will return how much time the value in dollars passed in will cost you in terms of time normalized to hours
-     * @param {number} valueInDollars - the value in dollars compared to base hourly pay
+     * @param {number} value - the value of the thing being compared to time
      */
-    self.get = (valueInDollars) => {
+    self.get = (value) => {
         const hourly = self.total / 2080;
-        return valueInDollars / hourly;
+        return value / hourly;
     };
     return self;
 };
+
+},{}]},{},[]);

@@ -1,13 +1,15 @@
 {
   "name": "monotime",
-  "version": "0.0.1",
-  "description": "Money is time",
+  "version": "0.0.2",
+  "description": "Money is time, a library to figure out what your time costs",
   "main": "index.js",
   "scripts": {
     "test": "tape test/index.js",
     "coverage": "tap test/index.js --coverage",
     "lint": "eslint .",
-    "generate-docs": "jsdoc --configure .jsdoc.json --verbose"
+    "compile": "browserify -r ./index.js:monotime > dist/monotime.js;",
+    "generate-docs": "jsdoc --configure .jsdoc.json --verbose",
+    "generate-example": "tryitout"
   },
   "repository": {
     "type": "git",
@@ -23,10 +25,12 @@
     "node": ">= 6"
   },
   "devDependencies": {
+    "browserify": "^14.4.0",
     "eslint": "^3.19.0",
     "jsdoc": "^3.4.3",
     "minami": "^1.1.1",
     "tap": "^10.3.1",
-    "tape": "^4.6.3"
+    "tape": "^4.6.3",
+    "tryitout": "0.0.3"
   }
 }
