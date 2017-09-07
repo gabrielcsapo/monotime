@@ -4,7 +4,7 @@
         "dictionaries": ["jsdoc"]
     },
     "source": {
-        "include": ["./", "README.md"],
+        "include": ["./index.js", "README.md"],
         "includePattern": ".js$",
         "excludePattern": "(node_modules/|docs|test)"
     },
@@ -17,7 +17,7 @@
         "useLongnameInNav": false
     },
     "opts": {
-        "destination": "./documentation",
+        "destination": "./docs/code",
         "encoding": "utf8",
         "private": false,
         "recurse": true,

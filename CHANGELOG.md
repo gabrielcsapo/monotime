@@ -1,3 +1,7 @@
+# Unreleased
+
+- updates documentation
+
 # 0.0.2 (06/04/2017)
 
 - updates documentation

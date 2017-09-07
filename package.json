@@ -26,11 +26,11 @@
   },
   "devDependencies": {
     "browserify": "^14.4.0",
-    "eslint": "^4.3.0",
-    "jsdoc": "^3.4.3",
-    "minami": "^1.1.1",
-    "tap": "^10.3.1",
-    "tape": "^4.6.3",
-    "tryitout": "0.0.5"
+    "eslint": "^4.6.1",
+    "jsdoc": "^3.5.4",
+    "minami": "^1.2.3",
+    "tap": "^10.7.2",
+    "tape": "^4.8.0",
+    "tryitout": "^0.1.1"
   }
 }

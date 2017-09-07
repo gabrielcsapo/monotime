@@ -28,9 +28,9 @@ module.exports = (interval, amount) => {
             throw new Error('interval not supported');
     }
     /**
+     * This function will return how much time the value in dollars passed in will cost you in terms of time normalized to hours
      * @memberof Monotime
      * @function get
-     * This function will return how much time the value in dollars passed in will cost you in terms of time normalized to hours
      * @param {number} valueInDollars - the value in dollars compared to base hourly pay
      */
     self.get = (valueInDollars) => {

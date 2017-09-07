@@ -1,7 +1,5 @@
 # monotime
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/gabrielcsapo/monotime.svg)](https://greenkeeper.io/)
-
 > 💰 Money is time, a library to figure out what your time costs
 
 [![Npm Version](https://img.shields.io/npm/v/monotime.svg)](https://www.npmjs.com/package/monotime)
@@ -11,7 +9,9 @@
 ![npm](https://img.shields.io/npm/dt/monotime.svg)
 ![npm](https://img.shields.io/npm/dm/monotime.svg)
 
-![logo](./docs/Monotime.png)
+<pre align="center">
+  <img src="./docs/Monotime.png"/>
+</pre>
 
 # Installation
 
