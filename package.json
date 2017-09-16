@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "tape test/index.js",
-    "coverage": "tap test/index.js --coverage",
+    "coverage": "tap test/index.js --coverage --coverage-report=lcov",
     "lint": "eslint .",
     "compile": "browserify -r ./index.js:monotime > dist/monotime.js;",
     "generate-docs": "jsdoc --configure .jsdoc.json --verbose",

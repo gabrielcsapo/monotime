@@ -33,4 +33,4 @@ module.exports = {
     externals: [
       "./dist/monotime.js"
     ]
-}
+};

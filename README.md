@@ -6,6 +6,7 @@
 [![Dependency Status](https://david-dm.org/gabrielcsapo/monotime.svg)](https://david-dm.org/gabrielcsapo/monotime)
 [![devDependency Status](https://david-dm.org/gabrielcsapo/monotime/dev-status.svg)](https://david-dm.org/gabrielcsapo/monotime#info=devDependencies)
 [![Build Status](https://travis-ci.org/gabrielcsapo/monotime.svg?branch=master)](https://travis-ci.org/gabrielcsapo/monotime)
+[![Coverage Status](https://lcov-server.herokuapp.com/badge/github%2Ecom/gabrielcsapo/monotime.svg)](https://lcov-server.herokuapp.com/coverage/github%2Ecom/gabrielcsapo/monotime)
 ![npm](https://img.shields.io/npm/dt/monotime.svg)
 ![npm](https://img.shields.io/npm/dm/monotime.svg)
 
