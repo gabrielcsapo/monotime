@@ -10,10 +10,6 @@
 ![npm](https://img.shields.io/npm/dt/monotime.svg)
 ![npm](https://img.shields.io/npm/dm/monotime.svg)
 
-<pre align="center">
-  <img src="./docs/Monotime.png"/>
-</pre>
-
 # Installation
 
 ```
