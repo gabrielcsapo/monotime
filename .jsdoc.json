@@ -21,6 +21,9 @@
         "encoding": "utf8",
         "private": false,
         "recurse": true,
-        "template": "./node_modules/minami"
+        "template": "./node_modules/minami",
+        "default": {
+            "includeDate": false
+        }
     }
 }
