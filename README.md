@@ -13,7 +13,7 @@
 # Installation
 
 ```
-npm install monotime
+npm install monotime --save
 ```
 
 ## Example
