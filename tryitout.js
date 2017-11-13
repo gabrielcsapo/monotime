@@ -15,11 +15,11 @@ module.exports = {
     value: `
         var monotime = require('monotime');
 
-        console.log(\`
+        \`
           buying this item will cost you
           \${monotime('hourly', 27.692307692307693).purchase('15')}
           hours of your life.
-        \`);
+        \`;
       `
   }, {
     type: "text",
