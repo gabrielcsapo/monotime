@@ -19,22 +19,22 @@ test('monotime', (t) => {
     });
 
     t.test('should return amount in hours (hourly)', (t) => {
-        t.equal(monotime('hourly', 27.692307692307693).get('15'), 0.5416666666666666);
+        t.equal(monotime('hourly', 27.692307692307693).purchase('15'), 0.5416666666666666);
         t.end();
     });
 
     t.test('should return amount in hours (bi-weekly)', (t) => {
-        t.equal(monotime('bi-weekly', 2215.3846153846152).get('15'), 0.5416666666666666);
+        t.equal(monotime('bi-weekly', 2215.3846153846152).purchase('15'), 0.5416666666666666);
         t.end();
     });
 
     t.test('should return amount in hours (monthly)', (t) => {
-        t.equal(monotime('monthly', 4800).get('15'), 0.5416666666666666);
+        t.equal(monotime('monthly', 4800).purchase('15'), 0.5416666666666666);
         t.end();
     });
 
     t.test('should return amount in hours (yearly)', (t) => {
-        t.equal(monotime('yearly', 57600).get('15'), 0.5416666666666666);
+        t.equal(monotime('yearly', 57600).purchase('15'), 0.5416666666666666);
         t.end();
     });
 

@@ -16,14 +16,12 @@
 npm install monotime --save
 ```
 
-## Example
+## Usage
+
+> To use `monotime` as a standalone library without a bundler, use the bundle located at `dist/monotime.js`. Else if you are using webpack or any other bundler, simply `require('monotime')` will suffice!
 
 ```javascript
 const monotime = require('monotime');
 
-monotime('hourly', 27.692307692307693).get('15'); // $15 will cost you 0.5416666666666666 hours
+monotime('hourly', 27.692307692307693).purchase('15'); // $15 will cost you 0.5416666666666666 hours
 ```
-
-## Usage
-
-To use `monotime` as a standalone library without a bundler, use the bundle located at `dist/monotime.js`. Else if you are using webpack or any other bundler, simply `require('monotime')` will suffice!
