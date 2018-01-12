@@ -15,11 +15,11 @@ module.exports = {
     value: `
         var monotime = require('monotime');
 
-        \`
+        console.log(\`
           buying this item will cost you
           \${monotime('hourly', 27.692307692307693).purchase('15')}
           hours of your life.
-        \`;
+        \`);
       `
   }, {
     type: "text",
@@ -37,7 +37,6 @@ module.exports = {
         console.log(monotime('yearly', 57600).purchase('15'));
       `
   }],
-  output: "./docs",
   externals: [
     "./dist/monotime.min.js"
   ]
