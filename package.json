@@ -37,7 +37,7 @@
     "psychic.css": "0.0.1",
     "tap": "^11.0.1",
     "tape": "^4.8.0",
-    "tryitout": "^2.0.1",
+    "tryitout": "^2.0.4",
     "uglifyjs": "^2.4.11"
   }
 }
